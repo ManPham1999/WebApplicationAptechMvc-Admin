@@ -1,0 +1,68 @@
+﻿@model KerryExample.Entity.ModelView
+
+@{
+    ViewData["Title"] = "User Managment";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Quản Lý Kho Cà Phê</h1>
+
+<p>
+    <a asp-action="Create">Thêm mới sản phẩm</a>
+</p>
+<table class="table">
+    <thead>
+    <tr>
+        <th>
+            Hình ảnh
+        </th>
+        <th>
+            Tên cà phê
+        </th>
+        <th>
+            Giá cà phê
+        </th>
+        <th>
+            Mô tả
+        </th>
+        <th>
+            Số lượng tồn kho
+        </th>
+        <th>
+            Trạng thái
+        </th>
+        <th>
+            Loại cà phê
+        </th>
+        <th>Hành động</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model.products)
+    {
+        var chosenStyle = item.Status.Equals(true) ? "fas fa-check-square" : "fas fa-square";
+        var chosenColor = item.Status.Equals(true) ? "color : green" : "";
+        <tr>
+            <td >
+                <img src=@item.Img alt="" height="100px" width="100px">
+            </td>
+            <td >@item.Name</td>
+            <td >@item.Price</td>
+            <td >@item.Desc</td>
+            <td >@item.Quantity</td>
+            <td>
+                <i class="@chosenStyle" style="@chosenColor"></i>
+            </td>
+            <td >@item.CatgoryRefId</td>
+            <td>
+                <a asp-action="Edit" asp-controller="Product" asp-route-id=@item.Id>
+                    <button class="btn-success" style="border-radius: 4px">Chỉnh sửa</button>
+                </a>
+                <a asp-action="Delete" asp-controller="Product" asp-route-id=@item.Id>
+                    <button style="border-radius: 4px" class="btn-danger">Xóa</button>
+                </a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

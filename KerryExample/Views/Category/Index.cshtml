@@ -1,0 +1,48 @@
+@using KerryExample.Entity
+@model ModelView
+
+@{
+    ViewData["Title"] = "Category Managment";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Quản Lý Kho Cà Phê</h1>
+
+<p>
+    <a asp-action="">Thêm mới loại sản phẩm</a>
+</p>
+<table class="table">
+    <thead>
+    <tr>
+        <th>
+            Tên loại cà phê
+        </th>
+        <th>
+            Trạng thái
+        </th>
+        <th>Hành động</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in @Model.catgories)
+    {
+        var chosenStyle = item.Status.Equals(true) ? "fas fa-check-square" : "fas fa-square";
+        var chosenColor = item.Status.Equals(true) ? "color : green" : "";
+        <tr>
+            <td style="display: none">@item.CatId</td>
+            <td >@item.Name</td>
+            <td>
+                <i class="@chosenStyle" style="@chosenColor"></i>
+            </td>
+            <td>
+                <a asp-action="Edit" asp-controller="Product" asp-route-id=@item.CatId>
+                    <button class="btn-success" style="border-radius: 4px">Chỉnh sửa</button>
+                </a>
+                <a asp-action="Delete" asp-controller="Product" asp-route-id=@item.CatId>
+                    <button style="border-radius: 4px" class="btn-danger">Xóa</button>
+                </a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

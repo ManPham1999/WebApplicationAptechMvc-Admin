@@ -1,0 +1,24 @@
+﻿@model KerryExample.Entity.ModelView
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Bạn có chắc muốn xóa sản phẩm này?</h1>
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-5">
+            @Model.product.Id
+        </dt>
+        <dd class="col-sm-5">
+            @Model.product.Name
+        </dd>
+    </dl>
+    <form asp-action="Delete">
+        <input type="hidden" asp-for=@Model.product.Id />
+        <input type="submit" value="Xóa" class="btn btn-danger" /> |
+        <a asp-action="Index">Trở về</a>
+    </form>
+</div>

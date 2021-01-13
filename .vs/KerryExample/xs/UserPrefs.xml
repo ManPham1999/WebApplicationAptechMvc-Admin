@@ -1,0 +1,45 @@
+﻿<Properties StartupConfiguration="{055A2C78-E6C4-44B9-8749-682BFB5ED246}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="KerryExample/Controllers/CategoryController.cs">
+    <Files>
+      <File FileName="KerryExample/Controllers/ProductController.cs" Line="153" Column="35" />
+      <File FileName="KerryExample/Views/Product/Index.cshtml" />
+      <File FileName="KerryExample/Views/Product/Create.cshtml" />
+      <File FileName="KerryExample/Entity/ModelView.cs" />
+      <File FileName="KerryExample/Entity/Product.cs" />
+      <File FileName="KerryExample/Controllers/CategoryController.cs" Line="40" Column="36" />
+      <File FileName="KerryExample/Views/Category/Edit.cshtml" />
+      <File FileName="KerryExample/Views/Product/Edit.cshtml" />
+      <File FileName="KerryExample/Views/Category/Index.cshtml" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="KerryExample" expanded="True">
+            <Node name="KerryExample" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="CategoryController.cs" selected="True" />
+              </Node>
+              <Node name="Entity" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Category" expanded="True" />
+                <Node name="Product" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.KerryExample PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/macintoshhd/Desktop/WebApplicationAptechMvc-Admin/KerryExample/Controllers/CategoryController.cs" relfile="KerryExample/Controllers/CategoryController.cs" line="46" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

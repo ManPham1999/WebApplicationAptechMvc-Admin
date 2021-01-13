@@ -11,6 +11,7 @@ namespace KerryExample.Entity
     public List<Catgory> catgories { get; set; }
     public List<Product> products { get; set; }
     public Product product { get; set;  }
+    public Catgory catgory { get; set;  }
     public string routeParamsString { get; set; }
     public Guid routeParamsUnique { get; set; }
   }

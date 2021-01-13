@@ -445,7 +445,6 @@
 /Users/macintoshhd/Desktop/DotNetMVC/personal_teaching_material/KerryExample/KerryExample/obj/Debug/netcoreapp3.1/Razor/Views/Category/Index.cshtml.g.cs
 /Users/macintoshhd/Desktop/WebApplicationAptechMvc-Admin/KerryExample/bin/Debug/netcoreapp3.1/appsettings.Development.json
 /Users/macintoshhd/Desktop/WebApplicationAptechMvc-Admin/KerryExample/bin/Debug/netcoreapp3.1/appsettings.json
-/Users/macintoshhd/Desktop/WebApplicationAptechMvc-Admin/KerryExample/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
 /Users/macintoshhd/Desktop/WebApplicationAptechMvc-Admin/KerryExample/bin/Debug/netcoreapp3.1/KerryExample.deps.json
 /Users/macintoshhd/Desktop/WebApplicationAptechMvc-Admin/KerryExample/bin/Debug/netcoreapp3.1/KerryExample.runtimeconfig.json
 /Users/macintoshhd/Desktop/WebApplicationAptechMvc-Admin/KerryExample/bin/Debug/netcoreapp3.1/KerryExample.runtimeconfig.dev.json
@@ -856,7 +855,6 @@
 /Users/macintoshhd/Desktop/WebApplicationAptechMvc-Admin/KerryExample/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.0/System.Runtime.Caching.dll
 /Users/macintoshhd/Desktop/WebApplicationAptechMvc-Admin/KerryExample/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.0/System.Runtime.Caching.dll
 /Users/macintoshhd/Desktop/WebApplicationAptechMvc-Admin/KerryExample/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
-/Users/macintoshhd/Desktop/WebApplicationAptechMvc-Admin/KerryExample/obj/Debug/netcoreapp3.1/KerryExample.csprojAssemblyReference.cache
 /Users/macintoshhd/Desktop/WebApplicationAptechMvc-Admin/KerryExample/obj/Debug/netcoreapp3.1/KerryExample.AssemblyInfoInputs.cache
 /Users/macintoshhd/Desktop/WebApplicationAptechMvc-Admin/KerryExample/obj/Debug/netcoreapp3.1/KerryExample.AssemblyInfo.cs
 /Users/macintoshhd/Desktop/WebApplicationAptechMvc-Admin/KerryExample/obj/Debug/netcoreapp3.1/KerryExample.csproj.CoreCompileInputs.cache
@@ -864,9 +862,13 @@
 /Users/macintoshhd/Desktop/WebApplicationAptechMvc-Admin/KerryExample/obj/Debug/netcoreapp3.1/KerryExample.MvcApplicationPartsAssemblyInfo.cache
 /Users/macintoshhd/Desktop/WebApplicationAptechMvc-Admin/KerryExample/obj/Debug/netcoreapp3.1/KerryExample.RazorAssemblyInfo.cache
 /Users/macintoshhd/Desktop/WebApplicationAptechMvc-Admin/KerryExample/obj/Debug/netcoreapp3.1/KerryExample.RazorAssemblyInfo.cs
+/Users/macintoshhd/Desktop/WebApplicationAptechMvc-Admin/KerryExample/obj/Debug/netcoreapp3.1/staticwebassets/KerryExample.StaticWebAssets.Manifest.cache
+/Users/macintoshhd/Desktop/WebApplicationAptechMvc-Admin/KerryExample/obj/Debug/netcoreapp3.1/staticwebassets/KerryExample.StaticWebAssets.xml
+/Users/macintoshhd/Desktop/WebApplicationAptechMvc-Admin/KerryExample/obj/Debug/netcoreapp3.1/scopedcss/bundle/KerryExample.styles.css
 /Users/macintoshhd/Desktop/WebApplicationAptechMvc-Admin/KerryExample/obj/Debug/netcoreapp3.1/KerryExample.TagHelpers.input.cache
 /Users/macintoshhd/Desktop/WebApplicationAptechMvc-Admin/KerryExample/obj/Debug/netcoreapp3.1/KerryExample.TagHelpers.output.cache
 /Users/macintoshhd/Desktop/WebApplicationAptechMvc-Admin/KerryExample/obj/Debug/netcoreapp3.1/KerryExample.RazorCoreGenerate.cache
+/Users/macintoshhd/Desktop/WebApplicationAptechMvc-Admin/KerryExample/obj/Debug/netcoreapp3.1/Razor/Views/Category/Edit.cshtml.g.cs
 /Users/macintoshhd/Desktop/WebApplicationAptechMvc-Admin/KerryExample/obj/Debug/netcoreapp3.1/Razor/Views/Category/Index.cshtml.g.cs
 /Users/macintoshhd/Desktop/WebApplicationAptechMvc-Admin/KerryExample/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs
 /Users/macintoshhd/Desktop/WebApplicationAptechMvc-Admin/KerryExample/obj/Debug/netcoreapp3.1/Razor/Views/Home/Privacy.cshtml.g.cs
@@ -883,8 +885,8 @@
 /Users/macintoshhd/Desktop/WebApplicationAptechMvc-Admin/KerryExample/obj/Debug/netcoreapp3.1/KerryExample.RazorTargetAssemblyInfo.cs
 /Users/macintoshhd/Desktop/WebApplicationAptechMvc-Admin/KerryExample/obj/Debug/netcoreapp3.1/KerryExample.Views.pdb
 /Users/macintoshhd/Desktop/WebApplicationAptechMvc-Admin/KerryExample/obj/Debug/netcoreapp3.1/KerryExample.csproj.CopyComplete
-/Users/macintoshhd/Desktop/WebApplicationAptechMvc-Admin/KerryExample/obj/Debug/netcoreapp3.1/staticwebassets/KerryExample.StaticWebAssets.Manifest.cache
-/Users/macintoshhd/Desktop/WebApplicationAptechMvc-Admin/KerryExample/obj/Debug/netcoreapp3.1/staticwebassets/KerryExample.StaticWebAssets.xml
 /Users/macintoshhd/Desktop/WebApplicationAptechMvc-Admin/KerryExample/obj/Debug/netcoreapp3.1/KerryExample.dll
 /Users/macintoshhd/Desktop/WebApplicationAptechMvc-Admin/KerryExample/obj/Debug/netcoreapp3.1/KerryExample.pdb
 /Users/macintoshhd/Desktop/WebApplicationAptechMvc-Admin/KerryExample/obj/Debug/netcoreapp3.1/KerryExample.genruntimeconfig.cache
+/Users/macintoshhd/Desktop/WebApplicationAptechMvc-Admin/KerryExample/obj/Debug/netcoreapp3.1/KerryExample.csprojAssemblyReference.cache
+/Users/macintoshhd/Desktop/WebApplicationAptechMvc-Admin/KerryExample/obj/Debug/netcoreapp3.1/Razor/Views/Category/Delete.cshtml.g.cs

@@ -22,12 +22,9 @@ namespace KerryExample.Controllers
             _context = context;
         }
 
-        public async Task<IActionResult> Index()
+        public IActionResult Index()
         {
-            ModelView mymodel = new ModelView();
-            mymodel.products = await _context.Products.ToListAsync();
-            mymodel.catgories = await _context.Catgories.ToListAsync();
-            return View(mymodel);
+            return View();
         }
 
         public IActionResult Privacy()

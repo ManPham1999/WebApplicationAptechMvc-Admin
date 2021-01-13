@@ -23,32 +23,16 @@ namespace KerryExample.Controllers
         public async Task<IActionResult> Index()
         {
             ModelView modelView = new ModelView();
-            modelView.products = await _context.Products.ToListAsync();
-            foreach (var item in modelView.products)
-            {
-                if (item.CatgoryRefId == null)
-                {
-                    item.CatgoryRefId = "unknown";
-                }
-                else
-                {
-                    item.CatgoryRefId = await ReturnCateName(item.CatgoryRefId);
-                }
-            } 
+            modelView.products = await _context.Products.Include(c => c.Catgory).ToListAsync();
             return View(modelView);
         }
 
-        public async Task<string> ReturnCateName(string id)
-        {
-            var cat = await _context.Catgories.FindAsync(id);
-            return cat.Name;
-        }
-
-
         // GET: User/Create
-        public IActionResult Create()
+        public async Task<IActionResult> Create()
         {
-            return View();
+            ModelView modelView = new ModelView();
+            modelView.catgories = await _context.Catgories.ToListAsync();
+            return View(modelView);
         }
 
         // POST: User/Create
@@ -56,17 +40,22 @@ namespace KerryExample.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Name,Status,Price,Quantity,Img,Desc")]
+        public async Task<IActionResult> Create([Bind("Name,Status,Price,Quantity,Img,Desc,CatgoryRefId")]
             Product product)
         {
             ModelView modelView = new ModelView();
             if (ModelState.IsValid)
             {
-                _context.Products.Add(product);
+                var chosenCate = await _context.Catgories.FindAsync(product.CatgoryRefId);
+                var newPro = new Product
+                {
+                    Name = product.Name, Price = product.Price, Status= product.Status,Quantity= product.Quantity,Img= product.Img,Desc = product.Desc, Catgory = chosenCate
+                };
+                _context.Products.Add(newPro);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            
+
             return View(modelView);
         }
 
@@ -108,6 +97,8 @@ namespace KerryExample.Controllers
             {
                 try
                 {
+                    var chosenCate = await _context.Catgories.FindAsync(product.CatgoryRefId);
+                    product.Catgory = chosenCate;
                     _context.Products.Update(product);
                     await _context.SaveChangesAsync();
                 }

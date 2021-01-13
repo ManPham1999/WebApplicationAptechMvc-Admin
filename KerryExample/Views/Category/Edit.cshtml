@@ -1,0 +1,38 @@
+﻿@model KerryExample.Entity.ModelView
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Chỉnh sửa thông tin loại cà phê</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-controller="Category" asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="catgory.CatId" />
+            <div class="form-group">
+                <label asp-for="catgory.Name" class="control-label"></label>
+                <input asp-for="catgory.Name" class="form-control" />
+                <span asp-validation-for="catgory.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="catgory.Status" class="control-label"></label>
+                <input asp-for="catgory.Status" class="form-control" />
+                <span asp-validation-for="catgory.Status" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Lưu" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Trở về</a>
+</div>
+
+@section Scripts {
+    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
+}

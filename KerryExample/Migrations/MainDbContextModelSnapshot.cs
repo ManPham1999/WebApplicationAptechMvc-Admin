@@ -41,6 +41,9 @@ namespace KerryExample.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<string>("CatgoryCatId")
+                        .HasColumnType("nvarchar(450)");
+
                     b.Property<string>("CatgoryRefId")
                         .HasColumnType("nvarchar(max)");
 
@@ -64,7 +67,16 @@ namespace KerryExample.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("CatgoryCatId");
+
                     b.ToTable("Products");
+                });
+
+            modelBuilder.Entity("KerryExample.Entity.Product", b =>
+                {
+                    b.HasOne("KerryExample.Entity.Catgory", "Catgory")
+                        .WithMany("Coffees")
+                        .HasForeignKey("CatgoryCatId");
                 });
 #pragma warning restore 612, 618
         }

@@ -14437,6 +14437,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/macintoshhd/Desktop/WebApplicationAptechMvc-Admin/KerryExample/Views/Category/Edit.cshtml",
+      "TargetPath": "Views\\Category\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/macintoshhd/Desktop/WebApplicationAptechMvc-Admin/KerryExample/Views/Category/Index.cshtml",
       "TargetPath": "Views\\Category\\Index.cshtml",
       "FileKind": "mvc"
@@ -14444,6 +14449,11 @@
     {
       "FilePath": "/Users/macintoshhd/Desktop/WebApplicationAptechMvc-Admin/KerryExample/Views/Product/Create.cshtml",
       "TargetPath": "Views\\Product\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/macintoshhd/Desktop/WebApplicationAptechMvc-Admin/KerryExample/Views/Category/Delete.cshtml",
+      "TargetPath": "Views\\Category\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {

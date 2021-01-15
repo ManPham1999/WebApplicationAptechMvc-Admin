@@ -24,7 +24,7 @@ namespace KerryExample.Controllers
             mymodel.catgories = await _context.Catgories.ToListAsync();
             return View(mymodel);
         }
-        public async Task<IActionResult> Edit(string? id)
+        public async Task<IActionResult> Edit(string id)
         {
             if (id == null)
             {

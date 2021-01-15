@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wJGJZ0/D1DuD3Q00HnJLqmRqqDplI+VKRKSNFlrsCoFS19n7Chxc39Wb98jaPsxgP2HhZxtg2a/8wCcfXtWsGw==",
+  "dgSpecHash": "14m4Kag68j/Z2ab6T46Ygj9uXBRPszUGR6zyC/4wosoxAJNGimjUDrQnvDkN6GoR1cehP/GVCLDAKuP47GUnMA==",
   "success": true,
-  "projectFilePath": "/Users/macintoshhd/Desktop/WebApplicationAptechMvc-Admin/KerryExample/KerryExample.csproj",
+  "projectFilePath": "/Users/macintoshhd/WebApplicationAptechMvc-Admin/KerryExample/KerryExample.csproj",
   "expectedPackageFiles": [
     "/Users/macintoshhd/.nuget/packages/microsoft.aspnetcore.html.abstractions/2.2.0/microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "/Users/macintoshhd/.nuget/packages/microsoft.aspnetcore.mvc.razor.extensions/3.1.9/microsoft.aspnetcore.mvc.razor.extensions.3.1.9.nupkg.sha512",

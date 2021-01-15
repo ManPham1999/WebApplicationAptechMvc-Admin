@@ -19,5 +19,9 @@ namespace KerryExample
 
     public DbSet<Product> Products { get; set; }
     public DbSet<Catgory> Catgories { get; set; }
+    public DbSet<User> Users { get; set; }
+    public DbSet<Cart> Carts { get; set; }
+    public DbSet<CartType> CartTypes { get; set; }
+    public DbSet<CartLine> CartLines { get; set; }
   }
 }

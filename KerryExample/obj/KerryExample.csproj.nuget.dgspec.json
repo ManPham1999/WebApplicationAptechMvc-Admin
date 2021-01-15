@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/macintoshhd/Desktop/WebApplicationAptechMvc-Admin/KerryExample/KerryExample.csproj": {}
+    "/Users/macintoshhd/WebApplicationAptechMvc-Admin/KerryExample/KerryExample.csproj": {}
   },
   "projects": {
-    "/Users/macintoshhd/Desktop/WebApplicationAptechMvc-Admin/KerryExample/KerryExample.csproj": {
+    "/Users/macintoshhd/WebApplicationAptechMvc-Admin/KerryExample/KerryExample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/macintoshhd/Desktop/WebApplicationAptechMvc-Admin/KerryExample/KerryExample.csproj",
+        "projectUniqueName": "/Users/macintoshhd/WebApplicationAptechMvc-Admin/KerryExample/KerryExample.csproj",
         "projectName": "KerryExample",
-        "projectPath": "/Users/macintoshhd/Desktop/WebApplicationAptechMvc-Admin/KerryExample/KerryExample.csproj",
+        "projectPath": "/Users/macintoshhd/WebApplicationAptechMvc-Admin/KerryExample/KerryExample.csproj",
         "packagesPath": "/Users/macintoshhd/.nuget/packages/",
-        "outputPath": "/Users/macintoshhd/Desktop/WebApplicationAptechMvc-Admin/KerryExample/obj/",
+        "outputPath": "/Users/macintoshhd/WebApplicationAptechMvc-Admin/KerryExample/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/macintoshhd/.nuget/NuGet/NuGet.Config"

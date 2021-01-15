@@ -1,0 +1,39 @@
+@model KerryExample.Entity.ModelView
+
+@{
+    ViewData["Title"] = "User Managment";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Quản Lý lịch sử giao dịch</h1>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>
+                    Email người mua
+                </th>
+        <th>
+            Ngày thanh toán
+        </th>
+        <th>
+            Tổng tiền
+        </th>
+
+        <th>
+            Tình trạng
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model.transactions)
+    {
+        var type = item.CardType.Name == "Done" ? "Đã thanh toán" : item.CardType.Name;
+        <tr>
+            <td>@item.User.Email</td>
+            <td>@item.CreatedDate</td>
+            <td>@type</td>
+        </tr>
+    }
+    </tbody>
+</table>

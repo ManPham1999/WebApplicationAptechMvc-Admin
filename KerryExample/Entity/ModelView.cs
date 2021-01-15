@@ -1,15 +1,14 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace KerryExample.Entity
 {
   public class ModelView
   {
 
-    public List<Catgory> catgories { get; set; }
-    public List<Product> products { get; set; }
+    public IEnumerable<Catgory> catgories { get; set; }
+    public IEnumerable<Product> products { get; set; }
+    public IEnumerable<Cart> transactions { get; set; }
     public Product product { get; set;  }
     public Catgory catgory { get; set;  }
     public string routeParamsString { get; set; }

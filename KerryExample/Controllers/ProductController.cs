@@ -7,23 +7,26 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using KerryExample;
 using KerryExample.Entity;
+using KerryExample.Repository;
 
 namespace KerryExample.Controllers
 {
     public class ProductController : Controller
     {
         private readonly MainDbContext _context;
+        private readonly ProductRepository _repository;
 
         public ProductController(MainDbContext context)
         {
             _context = context;
+            _repository = new ProductRepository(context);
         }
 
         // GET: User
         public async Task<IActionResult> Index()
         {
             ModelView modelView = new ModelView();
-            modelView.products = await _context.Products.Include(c => c.Catgory).ToListAsync();
+            modelView.products = await _repository.GetAllProducts();
             return View(modelView);
         }
 
@@ -104,7 +107,7 @@ namespace KerryExample.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!ProductExists(product.Id))
+                    if (!_repository.ProductExists(id))
                     {
                         return NotFound();
                     }
@@ -148,11 +151,6 @@ namespace KerryExample.Controllers
             pro.Status = false;
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
-        }
-
-        private bool ProductExists(Guid id)
-        {
-            return _context.Products.Any(e => e.Id == id);
         }
     }
 }

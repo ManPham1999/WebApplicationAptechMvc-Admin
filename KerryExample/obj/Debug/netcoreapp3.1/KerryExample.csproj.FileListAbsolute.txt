@@ -1302,7 +1302,6 @@
 /Users/macintoshhd/WebApplicationAptechMvc-Admin/KerryExample/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.0/System.Runtime.Caching.dll
 /Users/macintoshhd/WebApplicationAptechMvc-Admin/KerryExample/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.0/System.Runtime.Caching.dll
 /Users/macintoshhd/WebApplicationAptechMvc-Admin/KerryExample/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
-/Users/macintoshhd/WebApplicationAptechMvc-Admin/KerryExample/obj/Debug/netcoreapp3.1/KerryExample.csprojAssemblyReference.cache
 /Users/macintoshhd/WebApplicationAptechMvc-Admin/KerryExample/obj/Debug/netcoreapp3.1/KerryExample.AssemblyInfoInputs.cache
 /Users/macintoshhd/WebApplicationAptechMvc-Admin/KerryExample/obj/Debug/netcoreapp3.1/KerryExample.AssemblyInfo.cs
 /Users/macintoshhd/WebApplicationAptechMvc-Admin/KerryExample/obj/Debug/netcoreapp3.1/KerryExample.csproj.CoreCompileInputs.cache
@@ -1319,6 +1318,7 @@
 /Users/macintoshhd/WebApplicationAptechMvc-Admin/KerryExample/obj/Debug/netcoreapp3.1/Razor/Views/Category/Delete.cshtml.g.cs
 /Users/macintoshhd/WebApplicationAptechMvc-Admin/KerryExample/obj/Debug/netcoreapp3.1/Razor/Views/Category/Edit.cshtml.g.cs
 /Users/macintoshhd/WebApplicationAptechMvc-Admin/KerryExample/obj/Debug/netcoreapp3.1/Razor/Views/Category/Index.cshtml.g.cs
+/Users/macintoshhd/WebApplicationAptechMvc-Admin/KerryExample/obj/Debug/netcoreapp3.1/Razor/Views/History/Index.cshtml.g.cs
 /Users/macintoshhd/WebApplicationAptechMvc-Admin/KerryExample/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs
 /Users/macintoshhd/WebApplicationAptechMvc-Admin/KerryExample/obj/Debug/netcoreapp3.1/Razor/Views/Home/Privacy.cshtml.g.cs
 /Users/macintoshhd/WebApplicationAptechMvc-Admin/KerryExample/obj/Debug/netcoreapp3.1/Razor/Views/Product/Create.cshtml.g.cs
@@ -1337,4 +1337,3 @@
 /Users/macintoshhd/WebApplicationAptechMvc-Admin/KerryExample/obj/Debug/netcoreapp3.1/KerryExample.dll
 /Users/macintoshhd/WebApplicationAptechMvc-Admin/KerryExample/obj/Debug/netcoreapp3.1/KerryExample.pdb
 /Users/macintoshhd/WebApplicationAptechMvc-Admin/KerryExample/obj/Debug/netcoreapp3.1/KerryExample.genruntimeconfig.cache
-/Users/macintoshhd/WebApplicationAptechMvc-Admin/KerryExample/obj/Debug/netcoreapp3.1/Razor/Views/History/Index.cshtml.g.cs

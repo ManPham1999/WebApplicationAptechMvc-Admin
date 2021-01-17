@@ -6,7 +6,7 @@
       <File FileName="KerryExample/Views/Product/Create.cshtml" />
       <File FileName="KerryExample/Entity/ModelView.cs" />
       <File FileName="KerryExample/Entity/Product.cs" />
-      <File FileName="KerryExample/Controllers/CategoryController.cs" Line="40" Column="36" />
+      <File FileName="KerryExample/Controllers/CategoryController.cs" Line="26" Column="10" />
       <File FileName="KerryExample/Views/Category/Edit.cshtml" />
       <File FileName="KerryExample/Views/Product/Edit.cshtml" />
       <File FileName="KerryExample/Views/Category/Index.cshtml" />
@@ -28,9 +28,6 @@
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
@@ -38,7 +35,7 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/macintoshhd/Desktop/WebApplicationAptechMvc-Admin/KerryExample/Controllers/CategoryController.cs" relfile="KerryExample/Controllers/CategoryController.cs" line="46" column="1" />
+      <Breakpoint file="/Users/macintoshhd/WebApplicationAptechMvc-Admin/KerryExample/Controllers/CategoryController.cs" relfile="KerryExample/Controllers/CategoryController.cs" line="46" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
